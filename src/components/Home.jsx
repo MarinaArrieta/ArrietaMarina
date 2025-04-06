@@ -15,6 +15,7 @@ import {
     OrderedList,
     Stack,
     Text,
+    Tooltip,
     UnorderedList,
     VStack,
     useBreakpointValue
@@ -93,23 +94,28 @@ const Home = () => {
                     <OrderedList display='flex' listStyleType='none' p='30px 0px' margin='0' gap='20px'>
                         <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
                             <NavLink to='https://www.linkedin.com/in/marina-arrieta-react-developer/'>
-                                <TbBrandLinkedinFilled />
+                                <Tooltip label='Conectemos! 😀' fontSize='md' placement='top'>
+                                    <TbBrandLinkedinFilled />
+                                </Tooltip>
                             </NavLink>
                         </ListItem>
                         <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
                             <a href="mailto:arrietamarina12@gmail.com?subject=Consulta%20&body=Hola%20Marina%2C%20te%20escribo%20porque...">
-                                <MdEmail />
+                                <Tooltip label='Escribime! 😉' fontSize='md' placement='top'>
+                                    <MdEmail />
+                                </Tooltip>
                             </a>
                         </ListItem>
                         <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
-                            <NavLink to='https://github.com/MarinaArrieta'><FaGithubAlt /></NavLink>
+                            <Tooltip label='Proyectos ❤️' fontSize='md' placement='top'>
+                                <NavLink to='https://github.com/MarinaArrieta'><FaGithubAlt /></NavLink>
+                            </Tooltip>
                         </ListItem>
-                        {/* <ListItem color='#ffb520' sx={iconHoverStyle} fontSize="1.6em" display='flex' alignItems='center' >
-                            <NavLink to='https://github.com/MarinaArrieta' ><FaFileArrowDown /></NavLink>
-                        </ListItem> */}
                         <ListItem color='#ffb520' sx={iconHoverStyle} fontSize="1.6em" display='flex' alignItems='center'>
                             <a href="/CV-Marina-Arrieta.pdf" download>
-                                <FaFileArrowDown />
+                                <Tooltip label='Descargá mi CV 😉' fontSize='md' placement='top'>
+                                    <FaFileArrowDown />
+                                </Tooltip>
                             </a>
                         </ListItem>
                     </OrderedList>
