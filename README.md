@@ -1,3 +1,5 @@
+[![marina.png](https://i.postimg.cc/BZpJMz62/marina.png)](https://postimg.cc/vD1Rm35m)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
