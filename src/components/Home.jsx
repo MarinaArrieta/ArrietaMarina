@@ -89,7 +89,7 @@ const Home = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        Frontend Developer & Quality Control
+                        Frontend Developer
                     </MotionText>
                     <OrderedList display='flex' listStyleType='none' p='30px 0px' margin='0' gap='20px'>
                         <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
