@@ -111,13 +111,13 @@ const Home = () => {
                                 <NavLink to='https://github.com/MarinaArrieta'><FaGithubAlt /></NavLink>
                             </Tooltip>
                         </ListItem>
-                        <ListItem color='#ffb520' sx={iconHoverStyle} fontSize="1.6em" display='flex' alignItems='center'>
+                        {/* <ListItem color='#ffb520' sx={iconHoverStyle} fontSize="1.6em" display='flex' alignItems='center'>
                             <a href="/CV-Marina-Arrieta.pdf" download>
                                 <Tooltip label='Descargá mi CV 😉' fontSize='md' placement='top'>
                                     <FaFileArrowDown />
                                 </Tooltip>
                             </a>
-                        </ListItem>
+                        </ListItem> */}
                     </OrderedList>
                 </VStack>
 
