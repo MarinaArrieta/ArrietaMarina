@@ -172,7 +172,13 @@ const Home = () => {
             <VStack spacing={6} w={{ base: "90%", md: "60%", xl: "60%" }} id="about">
                 <Heading color="#c7141f">Sobre mí</Heading>
                 <Text color="#5a0e23" textAlign="center" w={{ lg: '60%' }}>
-                    Soy desarrolladora Frontend, próxima a recibirme como Técnica en Desarrollo de Software. Tengo experiencia en Quality Control (QC), realizando pruebas, reporte de errores y asegurando la calidad de sistemas. También he trabajado con WordPress para gestión de contenido. Me apasiona el frontend y crear experiencias atractivas y funcionales.
+                    Desarrolladora Frontend Jr, finalizando la carrera de Técnica en Desarrollo de Software.
+                    Actualmente participo en un equipo de desarrollo realizando prácticas profesionales con foco en frontend, trabajando con tecnologías como React, TypeScript, Vite, Chakra UI, HTML, CSS, Firebase, Git y React Router.
+                    Participo activamente en tareas de desarrollo, testing manual, consumo de APIs REST y mejoras de experiencia de usuario bajo metodologías ágiles como Scrum.
+                    Cuento con experiencia previa como QC Tester, realizando pruebas funcionales y de regresión, identificando y reportando errores para asegurar la calidad del software.
+                    Además, trabajé con WordPress gestionando contenido web, optimizando datos y mejorando la presentación de publicaciones.
+                    Soy analítica, resolutiva y apasionada por crear experiencias interactivas de calidad. Mi formación técnica y experiencia práctica me permiten abordar el desarrollo frontend con una mirada centrada en la usabilidad y la eficiencia.
+
                 </Text>
                 <Text color="#c7141f" fontWeight="bold">
                     Habilidades
