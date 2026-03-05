@@ -100,24 +100,10 @@ const Home = () => {
                             </NavLink>
                         </ListItem>
                         <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
-                            <a href="mailto:arrietamarina12@gmail.com?subject=Consulta%20&body=Hola%20Marina%2C%20te%20escribo%20porque...">
-                                <Tooltip label='Escribime! 😉' fontSize='md' placement='top'>
-                                    <MdEmail />
-                                </Tooltip>
-                            </a>
-                        </ListItem>
-                        <ListItem color='#ffb520' fontSize="2em" sx={iconHoverStyle}>
                             <Tooltip label='Proyectos ❤️' fontSize='md' placement='top'>
                                 <NavLink to='https://github.com/MarinaArrieta'><FaGithubAlt /></NavLink>
                             </Tooltip>
                         </ListItem>
-                        {/* <ListItem color='#ffb520' sx={iconHoverStyle} fontSize="1.6em" display='flex' alignItems='center'>
-                            <a href="/CV-Marina-Arrieta.pdf" download>
-                                <Tooltip label='Descargá mi CV 😉' fontSize='md' placement='top'>
-                                    <FaFileArrowDown />
-                                </Tooltip>
-                            </a>
-                        </ListItem> */}
                     </OrderedList>
                 </VStack>
 
@@ -173,8 +159,8 @@ const Home = () => {
                 <Heading color="#c7141f">Sobre mí</Heading>
                 <Text color="#5a0e23" textAlign="center" w={{ lg: '60%' }}>
                     Desarrolladora Frontend Jr, finalizando la carrera de Técnica en Desarrollo de Software.
-                    Actualmente participo en un equipo de desarrollo realizando prácticas profesionales con foco en frontend, trabajando con tecnologías como React, TypeScript, Vite, Chakra UI, HTML, CSS, Firebase, Git y React Router.
-                    Participo activamente en tareas de desarrollo, testing manual, consumo de APIs REST y mejoras de experiencia de usuario bajo metodologías ágiles como Scrum.
+                    Realicé una pasantía para la organización de Ada, en un equipo de desarrollo realizando prácticas profesionales con foco en frontend, trabajando con tecnologías como React, TypeScript, Vite, Chakra UI, HTML, CSS, Firebase, Git y React Router.
+                    Participé activamente en tareas de desarrollo, testing manual, consumo de APIs REST y mejoras de experiencia de usuario bajo metodologías ágiles como Scrum.
                     Cuento con experiencia previa como QC Tester, realizando pruebas funcionales y de regresión, identificando y reportando errores para asegurar la calidad del software.
                     Además, trabajé con WordPress gestionando contenido web, optimizando datos y mejorando la presentación de publicaciones.
                     Soy analítica, resolutiva y apasionada por crear experiencias interactivas de calidad. Mi formación técnica y experiencia práctica me permiten abordar el desarrollo frontend con una mirada centrada en la usabilidad y la eficiencia.
